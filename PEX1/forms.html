@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        /* body{
+            border: 2px solid black;
+            background-size: 500px 500px;
+        } */
+         /* h2{
+            font-size: 50px ; 
+            border: 2px solid ;
+            background-image: url(/img1.jpg) ;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 50px 70px;
+            background-color: aqua ;color: blue;
+        } */
+        p{
+          background-color: antiquewhite;
+        }
+        .bg {
+            width: 250px;
+            height: 350px;
+            background-color: aqua;
+            background-image: url(/img2.jpg);
+            background-size: contain;
+             background-size: 248px 150px;
+             background-repeat: no-repeat;
+             /* background-attachment: fixed; */
+        }
+    </style>
+</head>
+<body>
+    <h2>This is form page</h2> 
+    <h1> <span style=" font-style: italic; font-size: 50px; color:white; background-color: blueviolet">This is form page</span>  </h1>
+<p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque totam eum numquam exercitationem corrupti odit quo! Tempora quibusdam id nulla, dignissimos iste consectetur quod perspiciatis?</p>
+    <form action="form.php">
+        <input type="text" placeholder=" Enter your name">
+        <br>
+        <label for="idlabel1"> SectionA</label>
+        <input type="radio" value="1" id="idlabel1" name="12">
+        <label for="idlabel2"> SectionB</label>
+        <input type="radio" value="1" id="idlabel2" name="12">
+        <label for="idlabel3"> SectionC</label>
+        <input type="radio" value="1" id="idlabel3"name="12">
+        <label for="idlabel4"> SectionD</label>
+        <input type="radio" value="1" id="idlabel4"name="12">
+        <br>
+        <label for="id23">Food card</label>
+        <input type="checkbox" name="21" id="id123"><br>
+        <!-- <caption>select car</caption> -->
+        <select name="car" id="id123">
+            <option value="select car">select car</option>
+            <option value="omni">omni1</option>
+            <option value="omni">omni2</option>
+            <option value="omni">omni3</option>
+            <option value="omni">omni4</option>
+        </select><br>
+        <textarea name="12" id="id123" cols="30" rows="10" placeholder="Enter the text details"></textarea>
+
+    </form>
+    <br><hr>
+    <div class="bg">
+
+    </div>
+    
+</body>
+</html>
