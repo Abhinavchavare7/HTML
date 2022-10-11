@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+header{
+    background-color: black;
+    color: white;
+    height: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    font-size: 15px;
+}
+li{
+    display: inline;
+}
+.container
+{
+    width: 50vw;
+    height: 5120vh;
+    background-color: aqua;
+    margin: auto;
+    
+    /* position: relative; */
+}
+.line{
+   
+    border: 2px solid  red;
+    height: 20px;
+}
+.box1{
+    width: 10vw;
+    height: 15vh;
+    background-color: blueviolet;
+    color: white;
+    /* position: sticky; */
+    /* top:0vw ;
+    left: 15vh; */
+}
+.box2{
+    width: 10vw;
+    height: 15vh;
+    background-color: rgb(43, 67, 226);
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Contact</li>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="line">
+            Lorem ipsum dolor sit, 
+        </div>
+        <div class="box1">
+            Lorem ipsum dolor 
+        </div>
+        <div class="box2">
+            Lorem, ipsum dolor.
+        </div>
+    </div>
+</body>
+</html>
